@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data" position="(157.0, 185.0)" />
+		<node id="1" name="Interactive k-Means" qualified_name="orangecontrib.educational.widgets.owkmeans.OWKmeans" project_name="Orange3-Educational" version="" title="Interactive k-Means" position="(365.0, 183.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'attr1': 'x1', 'attr2': 'x2', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [[0.25299925361418146, 0.42014523426386835, 0.0], [0.24776024177776562, 0.3821984734382196, 0.0], [0.17121887136268893, 0.4030293329291101, 0.0], [0.253920858394031, 0.42150845834429707, 0.0], [0.18874335465825431, 0.423887513946516, 0.0], [0.20339332139858313, 0.39273170825406917, 0.0], [0.1751554028846122, 0.43247698608556634, 0.0], [0.2502420045329074, 0.38766668755481626, 0.0], [0.19026746751363732, 0.4460624414478016, 0.0], [0.18688886144210198, 0.394281436353215, 0.0], [0.5234812919344135, 0.7261295072301543, 0.0], [0.5391513508285009, 0.688578808309603, 0.0], [0.49128376671043084, 0.673753075211235, 0.0], [0.4468321482026596, 0.7275727848899529, 0.0], [0.5317220147015465, 0.7022760216130449, 0.0], [0.4618344799716737, 0.712029722166946, 0.0], [0.47834487507207923, 0.6419887909842434, 0.0], [0.48390676890535606, 0.6297579927349701, 0.0], [0.4765253646722893, 0.7797865093362804, 0.0], [0.6310955041239795, 0.39732977538430897, 0.0], [0.6559538734965494, 0.41744215154740993, 0.0], [0.6208592224169415, 0.4059273613327073, 0.0], [0.6193597597784543, 0.35522156374056024, 0.0], [0.647819933886654, 0.4110652037609835, 0.0], [0.6726533382477434, 0.3812209587708164, 0.0], [0.6313681226358772, 0.4486055995896108, 0.0], [0.6301576272106466, 0.33730084821064504, 0.0], [0.6710180848446095, 0.3987139615720176, 0.0], [0.6395453459435256, 0.47268921513379725, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02J\x00\x00\x00\xa4\x00\x00\x05\xee\x00\x00\x03v\x00\x00\x02K\x00\x00\x00\xc3\x00\x00\x05\xed\x00\x00\x03u\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02K\x00\x00\x00\xc3\x00\x00\x05\xed\x00\x00\x03u', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'controlAreaVisible': True, 'savedWidgetGeometry': b"\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01l\x00\x00\x00\xe3\x00\x00\x04\x03\x00\x00\x03'\x00\x00\x01m\x00\x00\x01\x02\x00\x00\x04\x02\x00\x00\x03&amp;\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x01m\x00\x00\x01\x02\x00\x00\x04\x02\x00\x00\x03&amp;", 'sound_effects': False, '__version__': 1, 'context_settings': []}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>

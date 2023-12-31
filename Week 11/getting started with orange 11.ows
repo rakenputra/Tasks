@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="Paint Data" qualified_name="Orange.widgets.data.owpaintdata.OWPaintData" project_name="Orange3" version="" title="Paint Data" position="(166.0, 140.0)" />
+		<node id="1" name="k-Means" qualified_name="Orange.widgets.unsupervised.owkmeans.OWKMeans" project_name="Orange3" version="" title="k-Means" position="(350.0, 129.0)" />
+		<node id="2" name="Scatter Plot" qualified_name="Orange.widgets.visualize.owscatterplot.OWScatterPlot" project_name="Orange3" version="" title="Scatter Plot" position="(492.0, 137.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="0" sink_node_id="1" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="annotated_data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="literal">{'attr1': 'x1', 'attr2': 'x2', 'autocommit': True, 'brushRadius': 75, 'controlAreaVisible': True, 'data': [[0.517531273318615, 0.742407061872423, 0.0], [0.5122922614821992, 0.7044603010467744, 0.0], [0.43575089106712245, 0.7252911605376648, 0.0], [0.5184528780984645, 0.7437702859528518, 0.0], [0.45327537436268783, 0.7461493415550707, 0.0], [0.46792534110301665, 0.7149935358626239, 0.0], [0.4396874225890457, 0.7547388136941211, 0.0], [0.514774024237341, 0.709928515163371, 0.0], [0.45479948721807084, 0.7683242690563563, 0.0], [0.4514208811465355, 0.7165432639617697, 0.0], [0.5013138042496845, 0.7542241280985924, 0.0], [0.5169838631437718, 0.7166734291780411, 0.0], [0.4691162790257018, 0.701847696079673, 0.0], [0.42466466051793056, 0.755667405758391, 0.0], [0.5095545270168175, 0.730370642481483, 0.0], [0.43966699228694467, 0.7401243430353841, 0.0], [0.1857340376336556, 0.38087407938346574, 0.0], [0.19129593146693244, 0.3686432811341925, 0.0], [0.18391452723386564, 0.5203244224924697, 0.0], [0.18922358294171357, 0.42542439625274714, 0.0], [0.21408195231428345, 0.4455367724158481, 0.0], [0.17898730123467552, 0.43402198220114546, 0.0], [0.1774878385961883, 0.3833161846089984, 0.0], [0.20594801270438803, 0.43915982462942166, 0.0], [0.23078141706547747, 0.4093155796392546, 0.0], [0.18949620145361115, 0.476700220458049, 0.0], [0.18828570602838066, 0.3653954690790832, 0.0], [0.22914616366234353, 0.4268085824404558, 0.0], [0.1976734247612597, 0.5007838360022354, 0.0], [0.16528038085471225, 0.4646680376951681, 0.0], [0.1335339856620179, 0.49548828477587786, 0.0], [0.16538256505669835, 0.4256905090144054, 0.0], [0.5890346846888816, 0.46847021381226106, 0.0], [0.5901612201594303, 0.3714695642205529, 0.0], [0.6112620428745251, 0.4035569032538597, 0.0], [0.5312530999726907, 0.4160716282539964, 0.0], [0.6274837240667779, 0.48862255453409054, 0.0], [0.600075841138329, 0.45686788754982455, 0.0], [0.6399446884053629, 0.41946420935872564, 0.0], [0.6547997103268062, 0.4398733741080669, 0.0], [0.5793351879555642, 0.42685121951382765, 0.0], [0.5919665144859606, 0.43551313703443384, 0.0], [0.6207450073389064, 0.4263964237676492, 0.0], [0.6117707238014112, 0.3975132813322938, 0.0], [0.5739701747038899, 0.4809447347382618, 0.0]], 'density': 7, 'hasAttr2': True, 'labels': ['C1', 'C2'], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02J\x00\x00\x00\xa4\x00\x00\x05\xee\x00\x00\x03v\x00\x00\x02K\x00\x00\x00\xc3\x00\x00\x05\xed\x00\x00\x03u\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02K\x00\x00\x00\xc3\x00\x00\x05\xed\x00\x00\x03u', 'symbol_size': 10, 'table_name': 'Painted data', '__version__': 1}</properties>
+		<properties node_id="1" format="literal">{'auto_commit': True, 'controlAreaVisible': True, 'k': 3, 'k_from': 2, 'k_to': 10, 'max_iterations': 300, 'n_init': 10, 'normalize': True, 'optimize_k': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\x02\x00\x00\x01\xd6\x00\x00\x03\xc6\x00\x00\x03\x0e\x00\x00\x02\x03\x00\x00\x01\xf5\x00\x00\x03\xc5\x00\x00\x03\r\x00\x00\x00\x00\x00\x00\x00\x00\x07\x80\x00\x00\x02\x03\x00\x00\x01\xf5\x00\x00\x03\xc5\x00\x00\x03\r', 'selection': 1, 'smart_init': 0, '__version__': 2}</properties>
+		<properties node_id="2" format="pickle">gASVpwIAAAAAAAB9lCiMC2F1dG9fY29tbWl0lIiMC2F1dG9fc2FtcGxllIiMEmNvbnRyb2xBcmVh
+VmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAAAACeAAAAYQAABQsAAANE
+AAAAnwAAAIAAAAUKAAADQwAAAAAAAAAAB4AAAACfAAAAgAAABQoAAANDlIwJc2VsZWN0aW9ulF2U
+jBF0b29sdGlwX3Nob3dzX2FsbJSIjA92aXN1YWxfc2V0dGluZ3OUfZSMBWdyYXBolH2UKIwLYWxw
+aGFfdmFsdWWUS/+MDWNsYXNzX2RlbnNpdHmUiYwRaml0dGVyX2NvbnRpbnVvdXOUiYwLaml0dGVy
+X3NpemWUSwCME2xhYmVsX29ubHlfc2VsZWN0ZWSUiYwWb3J0aG9ub3JtYWxfcmVncmVzc2lvbpSJ
+jAtwb2ludF93aWR0aJRLCowJc2hvd19ncmlklImMC3Nob3dfbGVnZW5klIiMDXNob3dfcmVnX2xp
+bmWUiHWMC19fdmVyc2lvbl9flEsFjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFuZ2V3aWRnZXQu
+c2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAphdHRyX2NvbG9ylIwHQ2x1
+c3RlcpRLZYaUjAphdHRyX2xhYmVslE5K/v///4aUjAphdHRyX3NoYXBllE5K/v///4aUjAlhdHRy
+X3NpemWUTkr+////hpSMBmF0dHJfeJSMAngxlEtmhpSMBmF0dHJfeZSMAngylEtmhpRoC32UaBdL
+BXWMCmF0dHJpYnV0ZXOUfZQoaCtLAmguSwJ1jAVtZXRhc5R9lChoIksBjApTaWxob3VldHRllEsC
+dXViYXUu
+</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
